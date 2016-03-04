@@ -1,0 +1,2 @@
+训练集是从搜狗实验室下的http://www.sogou.com/labs/dl/c.html，把训练集放在D盘的根目录下
+就可以了

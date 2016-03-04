@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//Email/BayesClassifier.py=utf-8
+encoding//Email/ChineseSpliter.py=utf-8
+encoding//Email/ClassConditionalProbability.py=utf-8
+encoding//Email/TrainingDataManager.py=utf-8
+encoding//Email/tests.py=utf-8

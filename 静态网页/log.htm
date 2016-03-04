@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   	<title>Email 'login.jsp' starting page</title> 
+
+   	<link rel="stylesheet" type="text/css" href="css/reset.css">	
+   	<link rel="stylesheet" type="text/css" href="css/indexstyle.css">	
+   	
+   	<script type="text/javascript">
+        function refreshcode(){
+            document.getElementById("code").src="admin/codemakerServlet?a="+Math.random()+100;
+            return false;
+        }
+    </script>
+  </head>
+  
+  <body>
+  	 
+  <div id="wrapper">
+	  <div id="header-wrapper">
+	  	<div id="header"></div>
+	  </div>
+	  <div id="login-box-wrapper">
+	  	<div id="login-box-logo"></div>
+	  	<div id="login-form-wrapper">
+	  	  <div id="login-form">
+	  	    <div class="login-form-title">用户登录</div>
+	  	    <form  id="form1" name="loginform" action="recieve.htm" method="post">
+  			  <input type="hidden" name="action" value="index" >
+  			  <div class="form-line">
+  			    <label>用户名</label>
+  			    <input type="text" name="userName" size="20" maxlength="10" class="text-area" placeholder="最长10位，字母、数字组合"/>
+  			  </div>
+  			  <div class="form-line">
+  			    <label>密码</label>
+  			    <input type="password" name="userPWD" size="20" maxlength="16" class="text-area" placeholder="最大16位，字母、数字组合"/>
+  			  </div>
+  			  <div class="form-line buttons-area">
+  			    <input type="submit" value="登录" name="Submit" class="button-area">
+  			  </div>
+  			  <div class="form-line">
+  			    <input type="reset" value="重置" name="Submit" class="button-area">
+  			  </div>
+  			  <div class="form-result-area">
+  			  
+			  请登录
+			  
+  			  </div>
+		    </form>
+		  </div>
+	  	</div>
+	  	<div class="clear"></div>
+	  </div>
+	  <div id="footer-wrapper">
+	    <div id="footer">
+	    	&copy;
+	    </div>
+	  </div>
+  </div>
+  
+  </body>
+</html>
